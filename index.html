@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> Bryans site </title> 
+       <style>
+            body{
+                 padding: 10px;
+                font-family: old school tattoo;
+                background: linear-gradient(132deg);
+            }
+          
+            
+            @-webkit-keyframes background {
+                0% { background-color: rgb(200,30,400); }
+                50% { background-color: blue; }
+                100% { background-color: blue; }                 
+            }
+            
+            @keyframes background {
+                 0% { background-color: rgb(200,30,400); }
+                50% { background-color: blue; }
+                100% { background-color: blue; }
+            }
+            
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(100, 300, 10);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(100, 40, 300);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+            #image{
+            border: 2px red;
+            border-radius: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header> Bryans brilliant website </header>
+                <ul>
+                    <li><a href="https://bryanyoumans-github-io-mryoumanzz.c9users.io/index.html">Home</a></li>
+                    <li><a href="https://bryanyoumans-github-io-mryoumanzz.c9users.io/portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            <main>
+                <div class="sidebar" id="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Peace_sign.svg/220px-Peace_sign.svg.png">
+                </div>
+                <div class="content">
+                    <header> Bryan Youmans</header>
+                    <p> student at Lakeshore High </p>
+                    <section class="interests">
+                        <header> Interests</header>
+                        <ul>
+                             <li>loves Music of all kinds</li>
+                             <li>enjoys to look at psychedelic art</li>
+                             <li>occasionally plays video games</li>
+                             <li>and hopes for world peace </li>
+                        </ul>
+                    </section>
+                 </div>
+             </main>
+        </div>
+    </body>
+</html>
